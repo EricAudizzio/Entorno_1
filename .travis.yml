@@ -5,10 +5,9 @@ install:
   - pip install -r requirements.txt
 addons:
   sonarcloud:
-    organization: "EricAudizzio"
-    token:
-      secure: $SONAR_TOKEN # encrypted value of your token
+      organization: "ericaudizzio"
+
 script:
-  - sonar-scanner
+  - sonar-scanner -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=EricAudizzio-github -Dsonar.login=$SONAR_TOKEN
   - pytest
 
