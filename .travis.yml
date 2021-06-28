@@ -9,8 +9,3 @@ addons:
 
 script:
   - pytest
-
-notifications:
-  email:
-    recipients:
-      - erixaudixio@gmail.com

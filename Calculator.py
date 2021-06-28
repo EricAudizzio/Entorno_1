@@ -5,6 +5,6 @@ class Calculator:
     def add(self):
         return self.num1 + self.num2
 
-
-instance = Calculator(1,2)
-print(instance.add())
+if __name__ == "__main__":
+    instance = Calculator(1,2)
+    print(instance.add())
