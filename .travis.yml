@@ -9,6 +9,6 @@ addons:
     token:
       secure: $SONAR_TOKEN # encrypted value of your token
 script:
-  - sonar-scanner
+  - sonar-scanner [X]
   - pytest
 
