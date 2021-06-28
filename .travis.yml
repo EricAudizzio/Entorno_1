@@ -8,6 +8,6 @@ addons:
       organization: ericaudizzio
 
 script:
-  - sonar-scanner -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=EricAudizzio -Dsonar.login=$SONAR_TOKEN -X
+  - sonar-scanner -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=ericaudizzio -Dsonar.login=$SONAR_TOKEN -X
   - pytest
 
