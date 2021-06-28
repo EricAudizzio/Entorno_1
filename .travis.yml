@@ -1,8 +1,15 @@
 language: python
 python:
   - "3.9"
+
+
+addons:
+  sonarcloud: true
+
+
 script:
   - pytest
+  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=EricAudizzio-github -Dsonar.projectKey=Calculator -Dsonar.sources='./Entorno_1' -X
 
 notifications:
   email:
