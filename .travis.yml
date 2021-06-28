@@ -9,7 +9,7 @@ addons:
 
 script:
   - pytest
-  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=ericaudizzio -Dsonar.projectKey=Entorno_1 -Dsonar.sources='./' -X
+  - pip verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=ericaudizzio -Dsonar.login=$SONAR
 
 notifications:
   email:
