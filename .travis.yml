@@ -9,7 +9,7 @@ addons:
 
 script:
   - pytest
-  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=EricAudizzio -Dsonar.projectKey=ericaudizzio -Dsonar.sources='./Entorno_1' -X
+  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=EricAudizzio -Dsonar.projectKey=ericaudizzio -Dsonar.sources='./Calculator' -X
 
 notifications:
   email:
