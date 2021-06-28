@@ -1,11 +1,7 @@
 language: python
 python:
   - "3.9"
-
-
 addons:
   sonarcloud: true
-
-
 script:
   - pytest
