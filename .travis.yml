@@ -11,4 +11,6 @@ script:
   - pytest
 
 deploy:
-  api_key: $HEROKU
+  provider: heroku
+  api_key:
+    secure: $HEROKU
