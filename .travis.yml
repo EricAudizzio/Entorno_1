@@ -14,3 +14,6 @@ deploy:
   provider: heroku
   api_key:
     secure: $HEROKU
+
+notifications:
+  slack: miprimerentono:$slack_token
