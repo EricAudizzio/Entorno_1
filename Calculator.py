@@ -9,6 +9,6 @@ class Calculator:
     def subtract(self):
         return self.num1 - self.num2
 
-if __name__ == "__main__":
-    instance = Calculator(1,2)
-    print(instance.add())
+
+instance = Calculator(5,3)
+print(instance.add())
