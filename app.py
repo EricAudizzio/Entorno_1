@@ -3,7 +3,7 @@
 
 from sys import argv
 import bottle
-from bottle import route,run
+from bottle import route, run
 
 class Calculator:
     def __init__(self, num1, num2):
@@ -24,4 +24,4 @@ def index():
 
 
 if __name__ == '__main__':
-	run(host='0.0.0.0',port=argv[1])
+	run(host='127.0.0.1',port=8000)
