@@ -2,4 +2,4 @@
 #hola mi reyyy
 #a ver ahghora loco
 # y ahora?ssiicheckiissedd3gdgdfd
-"no quiere laburar, es zurdo"
+"no quiere labura
