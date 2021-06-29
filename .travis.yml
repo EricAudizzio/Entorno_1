@@ -11,4 +11,4 @@ script:
   - pytest
 
 notifications:
-  slack: miprimerentono:$slack_token
+  slack: miprimerentono:cw0HBSA0XbZi8oTx6tvrYHNx
