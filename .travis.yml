@@ -10,3 +10,8 @@ script:
   - sonar-scanner -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=ericaudizzio -Dsonar.login=$SONAR_TOKEN -X
   - pytest
 
+deploy:
+  provider: heroku
+  api_key: $HEROKU
+  on:
+    branch: main
