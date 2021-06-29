@@ -10,11 +10,5 @@ script:
   - sonar-scanner -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=ericaudizzio -Dsonar.login=$SONAR_TOKEN -X
   - pytest
 
-deploy:
-  provider: heroku
-  api_key: fa098d77-78ed-4954-ad91-1acd1fa525dc
-  on:
-    branch: main
-
 notifications:
   slack: miprimerentono:$slack_token
