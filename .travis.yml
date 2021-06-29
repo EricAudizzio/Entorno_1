@@ -13,8 +13,6 @@ script:
 deploy:
   provider: heroku
   api_key: $HEROKU
-  on:
-    branch: main
 
 notifications:
   slack: miprimerentono:$slack_token
