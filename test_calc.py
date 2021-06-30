@@ -2,7 +2,7 @@ from app import Calculator
 def test_add():
     x,y = 1,2
     instance = Calculator(x,y)
-    assert instance.add() == x + y, "La suma no funciona bien"
+    assert instance.add() == x + y, "La suma tiene problemas"
 
 def test_subtract():
     x,y = 1,2
