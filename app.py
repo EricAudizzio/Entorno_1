@@ -11,10 +11,10 @@ class Calculator:
         self.num2 = num2
 
     def add(self):
-        return self.num1 + self.num2 + 1
+        return self.num1 + self.num2
 
     def subtract(self):
-        return self.num1 - self.num2 + 1
+        return self.num1 - self.num2
 
 bottle.debug(True)
 
